@@ -1,4 +1,4 @@
-ARG IMAGE_VERSION="8.1-debian-12"
+ARG IMAGE_VERSION=8.1-debian-12
 
 FROM bitnami/php-fpm:${IMAGE_VERSION}
 

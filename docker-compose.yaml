@@ -25,7 +25,7 @@ services:
     build:
       context: .
       args:
-        - IMAGE_VERSION="8.1-debian-12"
+        - IMAGE_VERSION=8.1-debian-12
       dockerfile: ./dockerfiles/php-fpm.dockerfile
     container_name: php-fpm
     volumes:
